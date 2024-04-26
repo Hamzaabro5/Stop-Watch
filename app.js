@@ -30,7 +30,7 @@ function startWatch (){
             }
             
         }
-    } , 100);
+    } , 1000);
 
     
 
