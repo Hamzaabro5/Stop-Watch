@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StopWatch</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img width="200px" src="" alt="">
-    <h1><span id="hour">0</span> : <span id="min">0</span> : <span id="sec">0 </span></h1>
-    <button onclick="startWatch()">Start</button>
-    <button onclick="stopInterval()">stop</button>
-    <button onclick="resetWatch()">reset</button>
+    <div class="container">
+        <h1>StopWatch</h1>
+    <h2><span id="hour">0</span> : <span id="min">0</span> : <span id="sec">0 </span> <span id="milisec"><sub>0</sub></span></h2>
+    <button class="startbutton" onclick="startWatch()">Start</button>
+    <button class="stopbutton" onclick="stopInterval()">stop</button>
+    <button class="resetbutton" onclick="resetWatch()">reset</button>
 
+    </div>
 
 
     <script src="app.js "></script>

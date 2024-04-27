@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    width: 100%;
+    height: 100%;
+    --color: rgba(0, 115, 19, 0.3);
+    background-color: #191a1a;
+    background-image: linear-gradient(
+        180deg,
+        transparent 24%,
+        var(--color) 25%,
+        var(--color) 26%,
+        transparent 27%,
+        transparent 74%,
+        var(--color) 75%,
+        var(--color) 76%,
+        transparent 77%,
+        transparent
+      ),
+      linear-gradient(
+        45deg,
+        transparent 24%,
+        var(--color) 35%,
+        var(--color) 26%,
+        transparent 17%,
+        transparent 74%,
+        var(--color) 75%,
+        var(--color) 76%,
+        transparent 77%,
+        transparent
+      );
+    background-size: 55px 55px;
+}
+#milisec{
+    font-size: 24px;
+} 
+.container{
+    text-align: center;
+    color: #a4ac86;
+}
+.container h1{
+    color: #84a98c;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    font-size: 76px;
+}
+.container h2{
+    margin-top: 10px;
+    margin-bottom: 60px;
+    font-size: 86px;
+}
+button{
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #d3d1d1b7;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin: 0px 20px;
+  }
+  
+  .startbutton:hover {
+    background-color: #23c483;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  .stopbutton:hover {
+    background-color: #c42323;
+    box-shadow: 0px 15px 20px rgba(229, 73, 46, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  .resetbutton:hover {
+    background-color: #23acc4;
+    box-shadow: 0px 15px 20px rgba(46, 208, 229, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  
+ button:active {
+    transform: translateY(-1px);
+  }
